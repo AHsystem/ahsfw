@@ -2,5 +2,5 @@
 Testdaten
 
 ```
-* * * * * /srv/www/mms.meap.local/bin/cli cron
+* * * * * /srv/www/mms.ahs.local/bin/cli cron
 ```
