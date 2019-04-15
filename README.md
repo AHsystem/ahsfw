@@ -1,6 +1,0 @@
-# ahsfw
-Testdaten
-
-```
-* * * * * /
-```
