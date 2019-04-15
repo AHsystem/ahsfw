@@ -1,0 +1,12 @@
+.idea
+.idea/*
+config/autoload/*.local.php
+**/node_modules
+**/node_modules/*
+data/cron.log
+rest_api/public/docs
+data/cache
+data/exceptions
+data/mail
+data/tmp
+data/uploads
