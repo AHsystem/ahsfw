@@ -1,5 +1,12 @@
 #!/usr/bin/php
 <?php
+
+function progress_bar($done, $total, $info="", $width=50) {
+    $perc = round(($done * 100) / $total);
+    $bar = round(($width * $perc) / 100);
+    return sprintf("%s%%[%s>%s]%s\r", $perc, str_repeat("=", $bar), str_repeat(" ", $width-$bar), $info);
+}
+
 defined('DS') || define('DS', DIRECTORY_SEPARATOR);
 define('BASE_DIR', realpath(__DIR__ ) .DS);
 define('DATA_PATH', BASE_DIR.'data/');
